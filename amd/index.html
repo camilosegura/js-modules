@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AMD Modules</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <script data-main="js/main" src="js/vendor/require.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form class="mt-5">
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInput">Numbner 1</label>
+            <input type="text" class="form-control mb-2" id="number-1" placeholder="Number 1">
+          </div>
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Number 2</label>
+            <div class="input-group mb-2">
+              <input type="text" class="form-control" id="number-2" placeholder="Number 2">
+            </div>
+          </div>
+          <div class="col-auto">
+            <span id="total"></span>
+          </div>
+          <div class="col-auto">
+            <button type="button" id="submit" class="btn btn-primary mb-2">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
