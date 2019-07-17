@@ -1,0 +1,22 @@
+{
+  "name": "camilo-js-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilosegura/js-modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilosegura/js-modules/issues"
+  },
+  "homepage": "https://github.com/camilosegura/js-modules#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
